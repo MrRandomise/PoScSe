@@ -43,7 +43,8 @@ namespace PoScSe
                 {
                     Directory.CreateDirectory(SaveDirField.Text);
                 }
-                _screenshot.TakeScreenshot(SaveDirField.Text, GetName());
+                var prefix = _iniFile.Read("Config", "Prefix");
+                _screenshot.TakeScreenshot(SaveDirField.Text, prefix, GetName());
             }
         }
 

@@ -28,7 +28,7 @@ namespace PoScSe
         }
 
 
-        public void TakeScreenshot(string saveDirectory, string name)
+        public void TakeScreenshot(string saveDirectory, string prefix, string name)
         {
             IntPtr hWnd = GetForegroundWindow();
             RECT rect;
@@ -45,7 +45,7 @@ namespace PoScSe
                     graphics.CopyFromScreen(rect.Left, rect.Top, 0, 0, new Size(width, height), CopyPixelOperation.SourceCopy);
                     ReleaseDC(hWnd, hdc);
                 }
-                string fileName = Path.Combine(saveDirectory, $"screenshot_{name}.png");
+                string fileName = Path.Combine(saveDirectory, $"{prefix}-screenshot_{name}.png");
                 bitmap.Save(fileName, ImageFormat.Png);
                 Console.WriteLine($"Скриншот сохранен: {fileName}");
             }

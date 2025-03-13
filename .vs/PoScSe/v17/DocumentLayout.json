@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Programming\\Data\\",
+  "WorkspaceRootPath": "D:\\Programm\\Poker\\PoScSe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90B74688-95B0-489E-B7AE-1BB7C19B0052}|PoScSe.csproj|e:\\programming\\data\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90B74688-95B0-489E-B7AE-1BB7C19B0052}|PoScSe.csproj|d:\\programm\\poker\\poscse\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90B74688-95B0-489E-B7AE-1BB7C19B0052}|PoScSe.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90B74688-95B0-489E-B7AE-1BB7C19B0052}|PoScSe.csproj|e:\\programming\\data\\inifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90B74688-95B0-489E-B7AE-1BB7C19B0052}|PoScSe.csproj|d:\\programm\\poker\\poscse\\inifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90B74688-95B0-489E-B7AE-1BB7C19B0052}|PoScSe.csproj|solutionrelative:inifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90B74688-95B0-489E-B7AE-1BB7C19B0052}|PoScSe.csproj|e:\\programming\\data\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90B74688-95B0-489E-B7AE-1BB7C19B0052}|PoScSe.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90B74688-95B0-489E-B7AE-1BB7C19B0052}|PoScSe.csproj|D:\\Programm\\Poker\\PoScSe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{90B74688-95B0-489E-B7AE-1BB7C19B0052}|PoScSe.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90B74688-95B0-489E-B7AE-1BB7C19B0052}|PoScSe.csproj|e:\\programming\\data\\screenshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90B74688-95B0-489E-B7AE-1BB7C19B0052}|PoScSe.csproj|d:\\programm\\poker\\poscse\\screenshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90B74688-95B0-489E-B7AE-1BB7C19B0052}|PoScSe.csproj|solutionrelative:screenshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90B74688-95B0-489E-B7AE-1BB7C19B0052}|PoScSe.csproj|e:\\programming\\data\\poscse.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{90B74688-95B0-489E-B7AE-1BB7C19B0052}|PoScSe.csproj|solutionrelative:poscse.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{90B74688-95B0-489E-B7AE-1BB7C19B0052}|PoScSe.csproj|d:\\programm\\poker\\poscse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B74688-95B0-489E-B7AE-1BB7C19B0052}|PoScSe.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90B74688-95B0-489E-B7AE-1BB7C19B0052}|PoScSe.csproj|E:\\Programming\\Data\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{90B74688-95B0-489E-B7AE-1BB7C19B0052}|PoScSe.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{90B74688-95B0-489E-B7AE-1BB7C19B0052}|PoScSe.csproj|d:\\programm\\poker\\poscse\\poscse.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{90B74688-95B0-489E-B7AE-1BB7C19B0052}|PoScSe.csproj|solutionrelative:poscse.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,45 +52,47 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "IniFile.cs",
-              "DocumentMoniker": "E:\\Programming\\Data\\IniFile.cs",
+              "DocumentMoniker": "D:\\Programm\\Poker\\PoScSe\\IniFile.cs",
               "RelativeDocumentMoniker": "IniFile.cs",
-              "ToolTip": "E:\\Programming\\Data\\IniFile.cs",
+              "ToolTip": "D:\\Programm\\Poker\\PoScSe\\IniFile.cs",
               "RelativeToolTip": "IniFile.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T21:43:47.84Z"
+              "WhenOpened": "2025-02-17T21:43:47.84Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "E:\\Programming\\Data\\Form1.cs",
+              "DocumentMoniker": "D:\\Programm\\Poker\\PoScSe\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "E:\\Programming\\Data\\Form1.cs",
+              "ToolTip": "D:\\Programm\\Poker\\PoScSe\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBcAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwDgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T18:42:23.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "E:\\Programming\\Data\\Form1.cs",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "D:\\Programm\\Poker\\PoScSe\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "E:\\Programming\\Data\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "D:\\Programm\\Poker\\PoScSe\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T18:39:02.234Z"
+              "WhenOpened": "2025-02-06T18:39:02.234Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PoScSe.csproj",
-              "DocumentMoniker": "E:\\Programming\\Data\\PoScSe.csproj",
+              "DocumentMoniker": "D:\\Programm\\Poker\\PoScSe\\PoScSe.csproj",
               "RelativeDocumentMoniker": "PoScSe.csproj",
-              "ToolTip": "E:\\Programming\\Data\\PoScSe.csproj",
+              "ToolTip": "D:\\Programm\\Poker\\PoScSe\\PoScSe.csproj",
               "RelativeToolTip": "PoScSe.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -100,21 +102,22 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Screenshot.cs",
-              "DocumentMoniker": "E:\\Programming\\Data\\Screenshot.cs",
+              "DocumentMoniker": "D:\\Programm\\Poker\\PoScSe\\Screenshot.cs",
               "RelativeDocumentMoniker": "Screenshot.cs",
-              "ToolTip": "E:\\Programming\\Data\\Screenshot.cs",
+              "ToolTip": "D:\\Programm\\Poker\\PoScSe\\Screenshot.cs",
               "RelativeToolTip": "Screenshot.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwC4AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAywC8AAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T18:37:00.379Z"
+              "WhenOpened": "2025-02-06T18:37:00.379Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Programming\\Data\\Program.cs",
+              "DocumentMoniker": "D:\\Programm\\Poker\\PoScSe\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\Programming\\Data\\Program.cs",
+              "ToolTip": "D:\\Programm\\Poker\\PoScSe\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
