@@ -38,3 +38,5 @@ E:\Programming\Data\obj\Debug\net8.0-windows\PoScSe.pdb
 E:\Programming\Data\obj\Debug\net8.0-windows\PoScSe.genruntimeconfig.cache
 E:\Programming\Data\obj\Debug\net8.0-windows\ref\PoScSe.dll
 D:\Programm\Poker\PoScSe\obj\Debug\net8.0-windows\PoScSe.sourcelink.json
+D:\Programm\Poker\PoScSe\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\Programm\Poker\PoScSe\bin\Debug\net8.0-windows\Telegram.Bot.dll

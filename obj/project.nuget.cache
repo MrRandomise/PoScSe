@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "PBuK/SlZtF4=",
+  "dgSpecHash": "JNLbBm5YWGE=",
   "success": true,
   "projectFilePath": "D:\\Programm\\Poker\\PoScSe\\PoScSe.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Dmitry\\.nuget\\packages\\mousekeyhook\\5.7.1\\mousekeyhook.5.7.1.nupkg.sha512"
+    "C:\\Users\\Dmitry\\.nuget\\packages\\mousekeyhook\\5.7.1\\mousekeyhook.5.7.1.nupkg.sha512",
+    "C:\\Users\\Dmitry\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\Dmitry\\.nuget\\packages\\telegram.bot\\18.0.0\\telegram.bot.18.0.0.nupkg.sha512"
   ],
   "logs": []
 }

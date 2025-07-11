@@ -48,6 +48,10 @@
             "MouseKeyHook": {
               "target": "Package",
               "version": "[5.7.1, )"
+            },
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[18.0.0, )"
             }
           },
           "imports": [

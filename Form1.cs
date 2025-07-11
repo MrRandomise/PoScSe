@@ -1,4 +1,5 @@
 using Gma.System.MouseKeyHook;
+using System.Windows.Forms;
 using System.Xml.Linq;
 
 namespace PoScSe
@@ -10,6 +11,10 @@ namespace PoScSe
         private Screenshot _screenshot = new Screenshot();
         private IKeyboardMouseEvents _globalHook;
         private IniFile _iniFile = new IniFile();
+        private bool _pause = false;
+        private string _screenKey;
+        private string _pauseKey;
+
         public MainForm()
         {
             InitializeComponent();
@@ -21,6 +26,8 @@ namespace PoScSe
 
             //Получили текущий счетчик названий
             _screenshotCounter = int.Parse(_iniFile.Read("Config", "CurrentNum"));
+            _screenKey = _iniFile.Read("Config", "Screen");
+            _pauseKey = _iniFile.Read("Config", "Pause");
             // Создаем комбинацию клавиш
             // Инициализация глобального хука
             _globalHook = Hook.GlobalEvents();
@@ -36,13 +43,23 @@ namespace PoScSe
         private void GlobalHook_KeyDown(object sender, KeyEventArgs e)
         {
             // Проверяем сочетание "Alt + NumPad1"
-            if (e.Alt && e.KeyCode == Keys.NumPad1)
+            //if (e.Alt && e.KeyCode == Keys.NumPad1)
+            //{
+            //    // Создаем папку, если она не существует
+            //    if (!Directory.Exists(SaveDirField.Text))
+            //    {
+            //        Directory.CreateDirectory(SaveDirField.Text);
+            //    }
+            //    var prefix = _iniFile.Read("Config", "Prefix");
+            //    _screenshot.TakeScreenshot(SaveDirField.Text, prefix, GetName());
+            //}
+
+            if (e.KeyCode == Keys.P && e.Alt)
             {
-                // Создаем папку, если она не существует
-                if (!Directory.Exists(SaveDirField.Text))
-                {
-                    Directory.CreateDirectory(SaveDirField.Text);
-                }
+                _pause = !_pause;
+            }
+            if (!_pause && e.KeyCode == Keys.G)
+            {
                 var prefix = _iniFile.Read("Config", "Prefix");
                 _screenshot.TakeScreenshot(SaveDirField.Text, prefix, GetName());
             }
