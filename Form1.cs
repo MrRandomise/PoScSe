@@ -42,26 +42,27 @@ namespace PoScSe
 
         private void GlobalHook_KeyDown(object sender, KeyEventArgs e)
         {
-            // Проверяем сочетание "Alt + NumPad1"
-            //if (e.Alt && e.KeyCode == Keys.NumPad1)
-            //{
-            //    // Создаем папку, если она не существует
-            //    if (!Directory.Exists(SaveDirField.Text))
-            //    {
-            //        Directory.CreateDirectory(SaveDirField.Text);
-            //    }
-            //    var prefix = _iniFile.Read("Config", "Prefix");
-            //    _screenshot.TakeScreenshot(SaveDirField.Text, prefix, GetName());
-            //}
-
             if (e.KeyCode == Keys.P && e.Alt)
             {
                 _pause = !_pause;
             }
+
+            // Проверяем сочетание "Alt + NumPad1"
+            if (!_pause && e.Alt && e.KeyCode == Keys.NumPad1)
+            {
+                // Создаем папку, если она не существует
+                if (!Directory.Exists(SaveDirField.Text))
+                {
+                    Directory.CreateDirectory(SaveDirField.Text);
+                }
+                var prefix = _iniFile.Read("Config", "Prefix");
+                _screenshot.TakeScreenshot(SaveDirField.Text, prefix, GetName(), false);
+            }
+
             if (!_pause && e.KeyCode == Keys.G)
             {
                 var prefix = _iniFile.Read("Config", "Prefix");
-                _screenshot.TakeScreenshot(SaveDirField.Text, prefix, GetName());
+                _screenshot.TakeScreenshot(SaveDirField.Text, prefix, "image");
             }
         }
 
