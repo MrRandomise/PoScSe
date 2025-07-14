@@ -42,6 +42,19 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "WTelegramClient/4.3.6": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/WTelegramClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/WTelegramClient.dll": {
+            "related": ".xml"
+          }
+        }
       }
     }
   },
@@ -109,28 +122,53 @@
         "telegram.bot.18.0.0.nupkg.sha512",
         "telegram.bot.nuspec"
       ]
+    },
+    "WTelegramClient/4.3.6": {
+      "sha512": "bjGC/0tbTshcU5maV7repkOgPnT3sJMyZF6LxX20d8QZKibukiWiBYM6Mc4xeTANTb9oz69TPZsP609HPYBztg==",
+      "type": "package",
+      "path": "wtelegramclient/4.3.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net5.0/WTelegramClient.dll",
+        "lib/net5.0/WTelegramClient.xml",
+        "lib/net8.0/WTelegramClient.dll",
+        "lib/net8.0/WTelegramClient.xml",
+        "lib/netstandard2.0/WTelegramClient.dll",
+        "lib/netstandard2.0/WTelegramClient.xml",
+        "logo.png",
+        "wtelegramclient.4.3.6.nupkg.sha512",
+        "wtelegramclient.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "MouseKeyHook >= 5.7.1",
-      "Telegram.Bot >= 18.0.0"
+      "Telegram.Bot >= 18.0.0",
+      "WTelegramClient >= 4.3.6"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dmitry\\.nuget\\packages\\": {}
+    "C:\\Users\\dmitr\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programm\\Poker\\PoScSe\\PoScSe.csproj",
+      "projectUniqueName": "E:\\Programming\\PoScSe\\PoScSe.csproj",
       "projectName": "PoScSe",
-      "projectPath": "D:\\Programm\\Poker\\PoScSe\\PoScSe.csproj",
-      "packagesPath": "C:\\Users\\Dmitry\\.nuget\\packages\\",
-      "outputPath": "D:\\Programm\\Poker\\PoScSe\\obj\\",
+      "projectPath": "E:\\Programming\\PoScSe\\PoScSe.csproj",
+      "packagesPath": "C:\\Users\\dmitr\\.nuget\\packages\\",
+      "outputPath": "E:\\Programming\\PoScSe\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Dmitry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dmitr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -155,7 +193,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -168,6 +207,10 @@
           "Telegram.Bot": {
             "target": "Package",
             "version": "[18.0.0, )"
+          },
+          "WTelegramClient": {
+            "target": "Package",
+            "version": "[4.3.6, )"
           }
         },
         "imports": [
@@ -189,7 +232,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

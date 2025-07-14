@@ -9,7 +9,8 @@
       "PoScSe/1.0.0": {
         "dependencies": {
           "MouseKeyHook": "5.7.1",
-          "Telegram.Bot": "18.0.0"
+          "Telegram.Bot": "18.0.0",
+          "WTelegramClient": "4.3.6"
         },
         "runtime": {
           "PoScSe.dll": {}
@@ -41,6 +42,14 @@
             "fileVersion": "18.0.0.0"
           }
         }
+      },
+      "WTelegramClient/4.3.6": {
+        "runtime": {
+          "lib/net8.0/WTelegramClient.dll": {
+            "assemblyVersion": "4.3.6.0",
+            "fileVersion": "4.3.6.0"
+          }
+        }
       }
     }
   },
@@ -70,6 +79,13 @@
       "sha512": "sha512-BD0UchUXINymCGS+1O1tv2enCRyv+VbSJQAgfnueTZs3j7K4XXyJyW0CgyJleTrqB1oq1hS1ux6gBpi3Ajp+ZQ==",
       "path": "telegram.bot/18.0.0",
       "hashPath": "telegram.bot.18.0.0.nupkg.sha512"
+    },
+    "WTelegramClient/4.3.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bjGC/0tbTshcU5maV7repkOgPnT3sJMyZF6LxX20d8QZKibukiWiBYM6Mc4xeTANTb9oz69TPZsP609HPYBztg==",
+      "path": "wtelegramclient/4.3.6",
+      "hashPath": "wtelegramclient.4.3.6.nupkg.sha512"
     }
   }
 }

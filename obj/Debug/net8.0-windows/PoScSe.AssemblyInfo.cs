@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PoScSe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6344775cc896c0e3da146510f1d863d3b0ddce93")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b123700566cd85b8a20c81bca1f374a52db4f66d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PoScSe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PoScSe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
